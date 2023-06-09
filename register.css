@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  
+  .register {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  
+  .header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #5106a1, #f25eff);
+    color: aliceblue;
+    padding: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .rd{
+    display: flex;
+    gap: 7px;
+    padding: 7px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #5106a1, #f25eff);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+
+  
+  @media screen and (max-width: 480px) {
+    .register {
+      max-width: 100%;
+      margin: 0 10px;
+    }
+  
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    select {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
