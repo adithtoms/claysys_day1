@@ -14,8 +14,10 @@
         <h1 class="heading">Login Form</h1>
         <div class="loginform">
             <form>
-                <input type="email" id="email" placeholder="Email Address" required>
-                <input type="password" id="password" placeholder="Password" required>
+                <input type="email" id="email" placeholder="Enter your Email" onfocusout="validateEmail()">
+                <span id="emailError" class="error"></span>
+                <input type="password" id="password" placeholder="Enter your Password" onfocusout="validatePassword()">
+                <span id="passwordError" class="error"></span>
                 <div>
                     <input type="checkbox" name="rememberpassword" value="rememberpassword" id="rememberpassword">
                     <label for="rememberpassword">Remember Password</label>
@@ -29,6 +31,7 @@
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
 
 </body>
 

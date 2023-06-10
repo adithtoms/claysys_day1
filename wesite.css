@@ -49,13 +49,12 @@
   .bodysection {
     margin: 20px 0;
     text-align: center;
-    max-height: 50vh;
   }
   
   .bodysection img {
     max-width: 100%;
     margin-bottom: 20px;
-    max-height: 60vh;
+    max-height: 75vh;
   }
   
   .footer {
@@ -80,6 +79,8 @@
   
   .footer ul.social li {
     margin: 0 5px;
+    list-style: none;
+    cursor: pointer;
   }
   
   @media screen and (max-width: 768px) {
